@@ -16,10 +16,10 @@ export default function Page() {
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <g clip-path="url(#clip0_5811_1262)">
+              <g clipPath="url(#clip0_5811_1262)">
                 <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
                   d="M6.1879 44.6405L42.7246 44.6628C42.0932 43.1967 37.1157 34.8136 35.9457 32.8171C35.3401 31.784 34.2997 29.7285 33.5973 28.8987L27.8644 38.5845L21.5722 38.59C21.8357 37.6611 23.8663 34.4294 24.4736 33.3846C25.4907 31.6324 26.4303 29.96 27.4916 28.1488L32.7643 18.976C32.9212 18.6984 32.9688 18.5967 33.1074 18.3655L33.5987 17.7409C34.1829 18.427 46.7072 40.3773 47.8677 42.3674C48.6859 43.7707 49.4717 45.1563 50.2584 46.4847C50.9429 47.6402 52.1516 49.4528 52.6029 50.5974L20.9703 50.6323L14.223 50.6785L2.56456 50.6299C1.65131 52.4982 -3.68887 58.9538 4.4427 58.9415H49.3461C54.2897 58.9415 59.3996 59.0732 64.3223 58.9415C66.3729 58.8869 68.202 57.0884 67.1825 54.7382L41.8985 11.2989C39.9796 8.10616 38.2101 4.91552 36.2942 1.66728C34.828 -0.818186 32.3433 -0.135566 31.3886 1.2033L28.5746 6.00694C24.7934 12.4965 20.9727 18.8313 17.3659 25.2712C15.5104 28.5819 13.6417 31.6403 11.7545 34.8955C11.0048 36.1889 6.36602 43.9397 6.1879 44.6401V44.6405Z"
                   fill="#DC2626"
                 />
@@ -48,9 +48,13 @@ export default function Page() {
             <p className="text-xl text-slate-600 mb-6 font-inter -tracking-[0.04em]">
               We are coming up with a New Identity. Stay Tuned
             </p>
-            <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-full transition duration-300 font-inter">
+            <a
+              target="_blank"
+              href="https://tally.so/r/mRBO4p"
+              className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-full transition duration-300 font-inter"
+            >
               Contact Us
-            </button>
+            </a>
           </div>
           <div className="md:w-1/2"></div>
         </div>
