@@ -2,20 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@layer base {
+    /* You can add custom base styles here */
+    html {
+        font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+/* Optional: Add any specific Inter Display features you want to enable */
+.font-display {
+    font-feature-settings: "ss01", "ss02", "ss03", "cv01", "cv02", "cv03",
+        "cv04";
 }
